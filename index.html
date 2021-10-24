@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechPRO</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;900&family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="contenedor contenido-header">
+            <div class="imagen-header">
+                <picture>
+                    <source
+                     sizes="1920w" 
+                     srcset="img/header.avif 1920w"
+                     type="image/avif">
+                    <source
+                     sizes="1920w" 
+                     srcset="img/header.webp 1920w" 
+                     type="image/webp">
+                    <source
+                     sizes="1920w" 
+                     srcset="img/header.png 1920w"
+                     type="image/png">
+                    <img loading="lazy" decoding="async" src="img/header.png" lazyalt="imagen" width="1000" height="500">
+                </picture>
+            </div> <!-- Imagen-Header -->
+            <div class="texto-header">
+                <p class="tagline-producto">Sonido Profesional</p>
+                <h1 class="nombre-producto degradado-verde">TechPro</h1>
+                <p class="descripcion-producto">Tempor non ut elit incididunt minim est ad nostrud mollit. Nostrud et aliqua tempor culpa nulla tempor tempor dolor ex sit nostrud. Aliqua ullamco laboris culpa deserunt.</p>
+                <p class="precio-producto">Desde <span>$299</span></p>
+            </div>
+        </div>
+    </header>
+    <section class="contenedor">
+        <div class="iconos">
+            <div class="icono text-center">
+                <img src="img/icono-sonido.svg" alt="Icono Sonido">
+                <h3>Gran Sonido</h3>
+                <p>Mollit Lorem ut anim eiusmod nisi dolor anim ipsum laborum do dolore. Ullamco ea esse officia fugiat culpa deserunt aliqua cupidatat sit nulla.</p>
+            </div>
+            <div class="icono text-center">
+                <img src="img/icono-garantia.svg" alt="Icono Garantía">
+                <h3>Garantía de por vida</h3>
+                <p>Mollit Lorem ut anim eiusmod nisi dolor anim ipsum laborum do dolore. Ullamco ea esse officia fugiat culpa deserunt aliqua cupidatat sit nulla.</p>
+            </div>
+            <div class="icono text-center">
+                <img src="img/icono-bateria.svg" alt="Icono Batería">
+                <h3>+20 Horas de Bateria</h3>
+                <p>Mollit Lorem ut anim eiusmod nisi dolor anim ipsum laborum do dolore. Ullamco ea esse officia fugiat culpa deserunt aliqua cupidatat sit nulla.</p>
+            </div>
+        </div>
+    </section>
+    <section class="sobre-tech">
+        <div class="contenedor sobre-tech-grid">
+            <div class="texto-sobre-tech">
+                <h2>Sobre los <span>TechPRO</span></h2>
+                <p>Voluptate est anim excepteur ea nulla sint. Ullamco aliqua voluptate non magna ipsum fugiat mollit velit do dolor labore do id velit. Deserunt enim nostrud irure eu ullamco sit fugiat elit do reprehenderit ipsum.</p>
+            </div>
+        </div>
+    </section>
+    <main class="contenedor modelos">
+        <h2 class="text-center degradado-verde header-modelos">Elige tus TechPRO</h2>
+        <div class="listado-modelos">
+            <div class="modelo modelo-x">
+                <h3>TechPRO X</h3>
+                <p class="precio">
+                    $299
+                </p>
+            </div>
+            <div class="modelo modelo-y">
+                <h3>TechPRO Y</h3>
+                <p class="precio">
+                    $399
+                </p>
+            </div>
+            <div class="modelo modelo-z">
+                <h3>TechPRO Z</h3>
+                <p class="precio">
+                    $499
+                </p>
+            </div>
+        </div>
+    </main>
+    <section class="newsletter">
+        <div class="contenido-newsletter contenedor">
+            <div class="texto-newsletter">
+                <h2>Recibe actualizaciones</h2>
+                <p>Non in qui cupidatat non fugiat laborum. Amet nulla ex tempor consequat ullamco consectetur incididunt non nisi anim reprehenderit. Cupidatat incididunt nulla nostrud laborum consectetur adipisicing nisi sit adipisicing. Aliqua sint voluptate officia Lorem anim sint.</p>
+                <form class="formulario">
+                    <div class="input">
+                        <input type="text" placeholder="Tu email" />
+                        <input type="submit" value="Inscribirme">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <p>Todos los derechos reservados</p>
+    </footer>
+    <script src="js/imagenes.js"></script>
+</body>
+</html>
